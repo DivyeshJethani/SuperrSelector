@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { KPI_DATA } from '../data/playersData';
 import { Shield, Activity, Flame, Trophy, CheckCircle, BarChart3, Database } from 'lucide-react';
 
@@ -58,7 +58,7 @@ export default function HeaderKpi() {
                 <div className="w-full h-full bg-[#0B1120] rounded-[14px] flex items-center justify-center">
                   <div className="relative flex items-center justify-center">
                     <span className="text-[#E11D48] font-black text-xl tracking-tighter">RR</span>
-                    <span className="absolute -top-2.5 -right-2 text-amber-400 text-xs">ðŸ‘‘</span>
+                    <span className="absolute -top-2.5 -right-2 text-amber-400 text-xs">★</span>
                   </div>
                 </div>
               </div>
@@ -81,14 +81,14 @@ export default function HeaderKpi() {
                 SupeRR Selector <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FB7185] via-[#E11D48] to-amber-300">Season 2</span>
               </h1>
               <p className="text-slate-400 text-sm font-medium mt-0.5">
-                Pressure Performance Explorer â€” Empirical Bayesian Leverage Index & Clutch Metric Suite
+                Pressure Performance Explorer - Empirical Bayesian Leverage Index & Clutch Metric Suite
               </p>
             </div>
           </div>
 
           <div className="flex items-center gap-2 self-start md:self-auto bg-slate-900/80 backdrop-blur-md px-3.5 py-2 rounded-xl border border-slate-800 text-xs text-slate-300 font-mono">
             <span className="text-slate-400">Target Protocol:</span>
-            <span className="text-[#FB7185] font-semibold">Pressure Performance Audit (2022–2026)</span>
+            <span className="text-[#FB7185] font-semibold">Pressure Performance Audit (2022-2026)</span>
           </div>
         </div>
 
@@ -116,7 +116,7 @@ export default function HeaderKpi() {
                 </div>
                 <div className="mt-3 pt-2.5 border-t border-slate-800/50 flex items-center justify-between text-[11px] text-slate-400">
                   <span className="truncate">{kpi.subtext}</span>
-                  <span className="text-emerald-400 font-mono font-medium">âœ“ Verified</span>
+                  <span className="text-emerald-400 font-mono font-medium">✓ Verified</span>
                 </div>
               </div>
             );
