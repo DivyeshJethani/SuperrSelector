@@ -11,7 +11,7 @@ Themed in **Rajasthan Royals Navy (`#1E3A8A`)** and **Pink (`#E11D48`)**.
 * **200,999 Deliveries Audited**: Granular ball-by-ball leverage coverage.
 * **635 High-Pedigree Matches**: 371 IPL matches + 264 Top-8 T20Is.
 * **151 Macro-Stakes Fixtures**: IPL Playoffs, Finals & T20 World Cup Knockouts (1.25x scaling).
-* **ρ = 0.9857 Rank Stability**: Spearman rank correlation across 10,000 bootstrap iterations.
+* **ρ = 0.9857 Rank Stability**: Spearman rank correlation across pedigree corpus sensitivity tests, validated alongside 200 whole-match bootstrap resamples.
 
 ### 2. Interactive Features
 * **Batters vs. Bowlers Toggle**: Switch between Top 10 Batters and Top 10 Bowlers.

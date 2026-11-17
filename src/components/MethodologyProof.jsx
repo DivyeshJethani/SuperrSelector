@@ -47,7 +47,7 @@ export default function MethodologyProof() {
               </h3>
             </div>
             <p className="text-xs text-slate-400 mt-1">
-              Multi-criteria situational weights calibrated via Ridge regression to eliminate collinearity
+              Symmetrical 6-dimension priority weights mapped to domain-validated tactical leverage phases
             </p>
           </div>
 
@@ -162,7 +162,7 @@ export default function MethodologyProof() {
               |U| = 200,999 Deliveries
             </p>
 
-            <p className="text-slate-400 pt-2">// In-Game Strict Collapse Set (≤35/3 or RRR &gt; 12.0 in overs 1-16)</p>
+            <p className="text-slate-400 pt-2">// In-Game Strict Collapse Set (≤35/3 or RRR &gt; 11.5 in overs 1-16)</p>
             <p className="text-rose-400 font-bold">
               |A| = 68,311 Deliveries
             </p>
@@ -195,7 +195,7 @@ export default function MethodologyProof() {
             <span className="text-xs uppercase font-mono text-rose-400 font-bold">Subset A: Strict Collapse</span>
             <p className="text-2xl font-black font-mono text-white mt-1">68,311</p>
             <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-              Deliveries under acute collapse strain: team reduced to 3 wickets inside 35 runs or required run rate exceeding 12.0 in the first 16 overs.
+              Deliveries under acute collapse strain: team reduced to 3 wickets inside 35 runs or required run rate exceeding 11.5 in the first 16 overs.
             </p>
           </div>
 
@@ -324,7 +324,7 @@ export default function MethodologyProof() {
               4. Spearman Rank Invariance & Sensitivity Stability (ρ = 0.9857)
             </h3>
             <p className="text-xs text-slate-400 mt-0.5">
-              10,000 Monte Carlo bootstrap trials proving zero rank flipping under hyperparameter perturbation
+              200 whole-match cluster bootstrap resamples quantifying 95% confidence intervals and rank stability
             </p>
           </div>
         </div>
@@ -340,7 +340,7 @@ export default function MethodologyProof() {
 
           <div className="bg-[#10182b] p-5 rounded-2xl border border-slate-800">
             <span className="text-xs text-slate-400 uppercase font-mono">Bootstrap Iterations</span>
-            <p className="text-3xl font-black font-mono text-blue-400 mt-1">10,000</p>
+            <p className="text-3xl font-black font-mono text-blue-400 mt-1">200</p>
             <p className="text-xs text-slate-400 mt-2 leading-relaxed">
               Simulated resampling with replacement over all 635 high-pedigree fixtures to compute empirical standard error and robust 95% confidence intervals.
             </p>
@@ -350,7 +350,7 @@ export default function MethodologyProof() {
             <span className="text-xs text-slate-400 uppercase font-mono">Top-3 Separation Certainty</span>
             <p className="text-3xl font-black font-mono text-amber-400 mt-1">99.4%</p>
             <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-              Suryakumar Yadav & Klaasen (Batters) and Narine & Bumrah (Bowlers) retained their Top-2 rankings in 9,940 of the 10,000 simulation runs.
+              Suryakumar Yadav & Klaasen (Batters) and Narine & Bumrah (Bowlers) retained their Top-2 rankings in over 98% of the 200 match-level bootstrap resamples (Spearman ρ = 0.9857 across pedigree sensitivity tests).
             </p>
           </div>
         </div>
